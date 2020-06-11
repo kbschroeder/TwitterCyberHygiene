@@ -1,10 +1,11 @@
 import twitter
 import csv
 
-api = twitter.Api(consumer_key= 'bb3ogHTO3sBaZU6tV4jfna6E8',
-               consumer_secret= 'dizx9v6RAs3YH9v9kCc60YkWXpLJTAoxIFBOBG5hcNql95ppMB',
-               access_token_key= '412662979-oPPKCIFn82X8mKF8WOAB9SUnFOSwLpbXWzWE5VKJ',
-               access_token_secret= 'OunbJQJoV8lrItY3z0lC67iELNpwMAtv86KwmyFUhzJ2e')
+
+api = twitter.Api(consumer_key= 'XxX',
+               consumer_secret= 'XxX',
+               access_token_key= 'XxX',
+               access_token_secret= 'XxX')
 
 petTweets = api.GetSearch(
     raw_query='q="first%dog"')
